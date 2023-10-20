@@ -15,6 +15,7 @@
       >
         <logo style="width: 300px;" />
 
+
         <h1 :class="`${className}__title`">
           {{ t('login.brand_title') }}
         </h1>
@@ -170,7 +171,7 @@ export default defineComponent({
     const passphrase = ref('')
     const password = ref('')
     const showQrcodeScanner = ref(false)
-    const logo = '/img/adamant-logo-transparent-512x512.png'
+    const logo = '/img/a.jpeg'
     const store = useStore()
     const { t } = useI18n()
     const className = 'login-page'

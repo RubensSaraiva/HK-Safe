@@ -7,13 +7,13 @@
 
       <v-list class="chat-menu__list">
         <!-- Cryptos -->
-        <v-list-item v-for="c in cryptos" :key="c" @click="sendFunds(c)">
-          <template #prepend>
-            <crypto-icon :crypto="c" box-centered />
-          </template>
+<!--        <v-list-item v-for="c in cryptos" :key="c" @click="sendFunds(c)">-->
+<!--          <template #prepend>-->
+<!--            <crypto-icon :crypto="c" box-centered />-->
+<!--          </template>-->
 
-          <v-list-item-title>{{ $t('chats.send_crypto', { crypto: c }) }}</v-list-item-title>
-        </v-list-item>
+<!--          <v-list-item-title>{{ $t('chats.send_crypto', { crypto: c }) }}</v-list-item-title>-->
+<!--        </v-list-item>-->
 
         <!-- Actions -->
         <v-list-item v-for="item in menuItems" :key="item.title" :disabled="item.disabled">

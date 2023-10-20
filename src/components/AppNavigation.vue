@@ -7,14 +7,14 @@
     :elevation="0"
   >
     <!-- Wallet -->
-    <v-btn
-      to="/home"
-    >
-      <v-icon
-        icon="mdi-wallet"
-      />
-      <span>{{ $t('bottom.wallet_button') }}</span>
-    </v-btn>
+<!--    <v-btn-->
+<!--      to="/home"-->
+<!--    >-->
+<!--      <v-icon-->
+<!--        icon="mdi-wallet"-->
+<!--      />-->
+<!--      <span>{{ $t('bottom.wallet_button') }}</span>-->
+<!--    </v-btn>-->
 
     <!-- Chat -->
     <v-btn

@@ -1,7 +1,6 @@
 <template>
   <div v-if="value">
     <div :class="`${className}__overlay`" />
-
     <v-progress-circular
       v-if="value"
       :size="150"

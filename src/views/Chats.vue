@@ -22,7 +22,6 @@
                 <template #prepend>
                   <v-icon :class="`${className}__icon`" icon="mdi-message-outline" size="small" />
                 </template>
-
                 <div>
                   <v-list-item-title :class="`${className}__title`">
                     {{ $t('chats.new_chat') }}
